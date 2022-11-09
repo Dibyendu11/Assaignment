@@ -1,0 +1,62 @@
+.file-card{
+    background-color: rgb(241, 236, 236);
+    /* border: 1px solid black; */
+    width: 1100px;
+    height: 280px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.file-input {
+    position: relative;
+}
+input {
+    position: relative;
+    max-width: 600px;
+   
+}
+.Heading{
+    position: relative;
+ height: 45px;
+width: 200vh;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ border: 2px white;
+ font-size: 35px;
+ fo
+}
+/* input::placeholder{
+    font-size:larger;
+} */
+/* button {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+}  */
+.outside-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    font-size: 28px;
+}
+.box{
+    margin-top: 30px;
+    height: 35px;
+    width: 550px;
+    border: 2px solid white;
+    font-size:20px;
+}
+.info1{
+    margin-bottom: 10px;
+}

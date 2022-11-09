@@ -1,0 +1,23 @@
+.container {
+    position: relative;
+    
+}
+.container .submit {
+    position: absolute;
+    height: 38px;
+    top: 25%;
+    left: 95%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color:rgb(10, 102, 194);
+    color: white;
+    font-size: 13px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 17px;
+    text-align: center;
+}
+.container.submit::hover{
+    background-color: red;
+}
